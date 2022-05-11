@@ -12,5 +12,6 @@ Requirements:
 #
 #
 #
-for the moment it's hard to build it with no docs yet im tryinbg mah best.
+for the moment it's hard to build it with no docs yet im trying mah best.
+#
 le's goooooooo.
