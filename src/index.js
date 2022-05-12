@@ -1,10 +1,14 @@
-import html from "./index.html";
-import {Seule} from 'seule'
+//importation of any page or a module from seule
+import html from './index.html'
+import {View} from "Seule/view";
 
-const app = new Seule({
-    el: '#app',
-    style: 'app',
+//create the view that contains the logic
+export const homePage = () => new View ({
+    el: 'home_page',
     data: {
-        msg : "Hello Seule"
+        message: "hello from here"
+    },
+    handlers(app){
+            console.log("hi there")
     }
 })
